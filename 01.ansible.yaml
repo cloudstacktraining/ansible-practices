@@ -5,5 +5,5 @@
   tasks: 
    name : testing
    ansible.builtin.dubug:
-   msg: "srujna"
+    msg: "srujna"
    
