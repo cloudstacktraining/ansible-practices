@@ -1,9 +1,9 @@
-- name : my first ansible playbook 
-  hosts : local
+- name: my first ansible playbook 
+  hosts: local
   gather_facts : no
 
   tasks: 
-   - name : testing
+   - name: testing
      ansible.builtin.dubug:
        msg: "srujna"
    
