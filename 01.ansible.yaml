@@ -1,0 +1,8 @@
+- name : testing
+  hosts : local
+  gather_facts : yes
+
+  tasks: 
+   name : testing
+   msg: srujna
+   
