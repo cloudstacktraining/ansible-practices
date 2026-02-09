@@ -3,7 +3,7 @@
   gather_facts : no
 
   tasks: 
-   name : testing
-   ansible.builtin.dubug:
-    msg: "srujna"
+   - name : testing
+     ansible.builtin.dubug:
+       msg: "srujna"
    
