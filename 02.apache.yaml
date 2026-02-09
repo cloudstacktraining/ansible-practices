@@ -1,6 +1,6 @@
 - name: APACHE SET UP
   hosts: local
-  becomes: yes
+  become: yes
   gather_facts: no
 
   tasks:
