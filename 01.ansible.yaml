@@ -3,7 +3,7 @@
   gather_facts : no
 
   tasks: 
-   - name: testing
-     dubug:
+    - name: testing
+      dubug:
        msg: "srujna"
    
