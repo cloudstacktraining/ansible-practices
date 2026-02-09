@@ -4,6 +4,6 @@
 
   tasks: 
     - name: testing
-      dubug:
+      debug:
         msg: "srujna"
    
