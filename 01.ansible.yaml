@@ -1,4 +1,4 @@
-- name : testing
+- name : my first ansible playbook 
   hosts : local
   gather_facts : no
 
