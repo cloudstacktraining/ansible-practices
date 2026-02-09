@@ -1,8 +1,9 @@
 - name : testing
   hosts : local
-  gather_facts : yes
+  gather_facts : no
 
   tasks: 
    name : testing
-   msg: srujna
+   ansible.builtin.dubug:
+   msg: "srujna"
    
